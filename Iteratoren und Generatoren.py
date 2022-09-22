@@ -54,3 +54,19 @@ next(g)
 next(g)
 next(g)
 
+'''
+
+def gfunc(value = 0):
+    while value < 10:
+        if value == 0:
+            print (10)
+            value += 1
+        else:
+            print(value*100)
+            value += 1
+s = gfunc()
+next(s)
+
+
+'''
+
