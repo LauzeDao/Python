@@ -38,7 +38,7 @@ print(s4.issubset(s3))
 '''Definieren Sie eine Menge, die ihrerseits wiederum aus Mengen von Namen besteht. Definieren Sie eine zweite
 Menge, die eine Schnittmenge mit dieser Menge hat.
 '''
-
+#s5= s1.union(s2)
 s5 = set([s1, s2])
 s6 = (['Paul', 'Rosi'])
 
