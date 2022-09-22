@@ -7,6 +7,12 @@ def limit10():
 
 limit10()
 
+def printzahl():
+    for x in range(0,10):
+        print(x)
+        
+printzahl()
+
 Schreiben Sie eine Funktion, die das Doppelte einer Zahl zurück gibt
 
 x = input('Bitte eine Zahl eingeben')
